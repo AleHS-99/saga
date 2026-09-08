@@ -1,0 +1,105 @@
+# Entornos virtuales (el tuyo .venv)
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+.env.*.local
+
+# Base de datos SQLite (por defecto en Django)
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+
+# Archivos de caché y compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Archivos de empaquetado / distribución
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pycache__/
+
+# Variables de entorno y secretos (NUNCA subir)
+.env
+.env.local
+.env.*.local
+secrets.json
+*.secret
+*.key
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Cobertura de pruebas y reportes
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.cache/
+
+# Django específico (archivos media y estáticos generados)
+media/
+staticfiles/
+static_collected/
+*.mo
+*.po~
+
+# Archivos de migración (OPCIONAL - leer nota abajo)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Editores de código (VS Code, PyCharm, Sublime, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.iml
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de sistemas operativos
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de Jupyter (si usas notebooks)
+.ipynb_checkpoints/
+*.ipynb
+
+# Archivos de tipo dump de datos
+*.dump
+*.bak
