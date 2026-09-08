@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0.0",
+  "workspaceRoot": "/Users/rick/dev/byrick.net/groundwork",
+  "nodes": {
+    "/Users/rick/dev/byrick.net/groundwork/bin/cli.js": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/bin/cli.js",
+      "moduleName": "bin/cli.js",
+      "exports": [],
+      "imports": [
+        "fs",
+        "path",
+        "url"
+      ],
+      "language": "javascript",
+      "mtime": "2026-05-30T21:16:51.078Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/eslint.config.js": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/eslint.config.js",
+      "moduleName": "eslint.config.js",
+      "exports": [
+        "defineConfig"
+      ],
+      "imports": [
+        "@eslint/js",
+        "globals",
+        "eslint-plugin-react-hooks",
+        "eslint-plugin-react-refresh",
+        "typescript-eslint",
+        "eslint/config"
+      ],
+      "language": "javascript",
+      "mtime": "2026-05-30T18:08:50.108Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/src/App.tsx": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/src/App.tsx",
+      "moduleName": "src/App.tsx",
+      "exports": [
+        "App"
+      ],
+      "imports": [
+        "react-router-dom",
+        "./pages/Home",
+        "./pages/Docs",
+        "@/components/theme-provider",
+        "@/components/theme-toggle"
+      ],
+      "language": "typescript",
+      "mtime": "2026-05-30T22:18:33.882Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/src/components/theme-provider.tsx": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/src/components/theme-provider.tsx",
+      "moduleName": "src/components/theme-provider.tsx",
+      "exports": [],
+      "imports": [
+        "react"
+      ],
+      "language": "typescript",
+      "mtime": "2026-05-30T22:18:15.801Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/src/components/theme-toggle.tsx": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/src/components/theme-toggle.tsx",
+      "moduleName": "src/components/theme-toggle.tsx",
+      "exports": [],
+      "imports": [
+        "lucide-react",
+        "@/components/ui/button",
+        "@/components/theme-provider"
+      ],
+      "language": "typescript",
+      "mtime": "2026-05-30T22:18:26.198Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/src/components/ui/button.tsx": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/src/components/ui/button.tsx",
+      "moduleName": "src/components/ui/button.tsx",
+      "exports": [],
+      "imports": [
+        "react",
+        "class-variance-authority",
+        "radix-ui",
+        "@/lib/utils"
+      ],
+      "language": "typescript",
+      "mtime": "2026-05-30T22:09:34.813Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/src/lib/utils.ts": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/src/lib/utils.ts",
+      "moduleName": "src/lib/utils.ts",
+      "exports": [
+        "cn"
+      ],
+      "imports": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "language": "typescript",
+      "mtime": "2026-05-30T18:15:47.333Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/src/main.tsx": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/src/main.tsx",
+      "moduleName": "src/main.tsx",
+      "exports": [],
+      "imports": [
+        "react",
+        "react-dom/client",
+        "./index.css",
+        "./App.tsx"
+      ],
+      "language": "typescript",
+      "mtime": "2026-05-30T18:08:50.117Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/src/pages/Docs.tsx": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/src/pages/Docs.tsx",
+      "moduleName": "src/pages/Docs.tsx",
+      "exports": [
+        "Docs"
+      ],
+      "imports": [
+        "react-router-dom",
+        "@/components/ui/button"
+      ],
+      "language": "typescript",
+      "mtime": "2026-05-30T22:05:16.319Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/src/pages/Home.tsx": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/src/pages/Home.tsx",
+      "moduleName": "src/pages/Home.tsx",
+      "exports": [
+        "Home"
+      ],
+      "imports": [
+        "@/components/ui/button",
+        "react-router-dom"
+      ],
+      "language": "typescript",
+      "mtime": "2026-05-30T22:05:15.516Z"
+    },
+    "/Users/rick/dev/byrick.net/groundwork/vite.config.ts": {
+      "filePath": "/Users/rick/dev/byrick.net/groundwork/vite.config.ts",
+      "moduleName": "vite.config.ts",
+      "exports": [
+        "defineConfig"
+      ],
+      "imports": [
+        "vite",
+        "@rolldown/plugin-babel",
+        "@tailwindcss/vite",
+        "path"
+      ],
+      "language": "typescript",
+      "mtime": "2026-05-30T18:15:29.361Z"
+    }
+  },
+  "edges": [
+    {
+      "source": "/Users/rick/dev/byrick.net/groundwork/src/App.tsx",
+      "target": "/Users/rick/dev/byrick.net/groundwork/src/pages/Docs.tsx",
+      "importSpecifier": "./pages/Docs",
+      "importType": "default"
+    },
+    {
+      "source": "/Users/rick/dev/byrick.net/groundwork/src/App.tsx",
+      "target": "/Users/rick/dev/byrick.net/groundwork/src/pages/Home.tsx",
+      "importSpecifier": "./pages/Home",
+      "importType": "default"
+    },
+    {
+      "source": "/Users/rick/dev/byrick.net/groundwork/src/main.tsx",
+      "target": "/Users/rick/dev/byrick.net/groundwork/src/App.tsx",
+      "importSpecifier": "./App.tsx",
+      "importType": "default"
+    },
+    {
+      "source": "/Users/rick/dev/byrick.net/groundwork/src/main.tsx",
+      "target": "/Users/rick/dev/byrick.net/groundwork/src/index.css",
+      "importSpecifier": "./index.css",
+      "importType": "sideeffect"
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2026-05-30T22:18:34.151Z",
+    "generator": "repo-graph",
+    "nodeCount": 11,
+    "edgeCount": 4
+  }
+}
